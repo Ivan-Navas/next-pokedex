@@ -4,16 +4,12 @@ import CasePoke from "@/Components/Utilities/Case";
 import Light from "./Light";
 import Led from "../Utilities/Led";
 import Link from "next/link";
+import Leds from "./pokedexParts/Leds";
 
 function Case() {
   return (
     <div className="w-600 h-700 bg-caseColor rounded-5 relative">
-      <Led />
-      <div className="w-164 h-43.5 flex items-end justify-end">
-        <Light color="red" />
-        <Light color="#FFFF00" />
-        <Light color="#DDFF00" />
-      </div>
+      <Leds />
       <div className="top-43.5 absolute">
         <CasePoke />
       </div>
