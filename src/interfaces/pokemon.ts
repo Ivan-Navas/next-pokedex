@@ -1,5 +1,4 @@
 export interface pokekemonList {
-    name: string;
-    url: string;
-
+  name: string;
+  url: string;
 }

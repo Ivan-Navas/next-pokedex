@@ -1,4 +1,3 @@
 export type ContextType = {
-    getPokemonList: () => void;
-
-}
+  getPokemonList: () => void;
+};
