@@ -1,6 +1,6 @@
 ## Pokedex con Nextjs y Pokeapi
 
-Una pokedex permite ver informacion somo los pokemon(criaturas de la franquisia pokemon)
+Una pokedex permite ver informacion sobre los pokemon(criaturas de la franquicia pokemon)
 
 ### Diseño del ui
 [Figma](https://www.figma.com/design/8vKhUckQFTmNw6kzkeUVM0)
