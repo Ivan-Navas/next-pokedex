@@ -12,11 +12,14 @@ export const AppWrapper = ({ children }: { children: React.ReactNode }) => {
     try {
       const request = await fetch("https://pokeapi.co/api/v2/pokemon");
       const pokemon: pokedexList = await request.json();
+      console.log(pokemon.results)
     } catch (error) {
       console.log("Ocurrio un error: " + error);
     }
   };
-  useEffect(() => {}, []);
+  useEffect(() => {
+    getPokemonList()
+  }, []);
   return (
     <AppContext.Provider
       value={{
